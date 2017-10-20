@@ -61,6 +61,37 @@ namespace winform_3d_visualizer.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to .pixel:hover
+        ///{ 
+        ///  stroke: #000;
+        ///  stroke-width: 1px;
+        ///}
+        ///.tick:hover
+        ///{ 
+        ///  fill: #aaa;
+        ////* stroke: #000;  
+        ///stroke-width: 1px;*/
+        ///}
+        ///div.tooltip
+        ///{
+        ///	position: absolute;
+        ///	text-align: left;
+        ///	padding: 8px;
+        ///	font: 12px sans-serif;
+        ///	background: #000;
+        ///  color: #ddd;
+        ///	border: solid 1px #aaa;
+        ///	border-radius: 4px;
+        ///	pointer-events: none;
+        ///}.
+        /// </summary>
+        internal static string correxplorer_css {
+            get {
+                return ResourceManager.GetString("correxplorer_css", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to var stringify = function (x) {
         ///  if (typeof(x) === &apos;number&apos; || x === undefined) {
         ///    return String(x);
@@ -86,49 +117,18 @@ namespace winform_3d_visualizer.Properties {
         ///
         ///  // Autodetect s [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string correxplorer {
+        internal static string correxplorer_js {
             get {
-                return ResourceManager.GetString("correxplorer", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to .pixel:hover
-        ///{ 
-        ///  stroke: #000;
-        ///  stroke-width: 1px;
-        ///}
-        ///.tick:hover
-        ///{ 
-        ///  fill: #aaa;
-        ////* stroke: #000;  
-        ///stroke-width: 1px;*/
-        ///}
-        ///div.tooltip
-        ///{
-        ///	position: absolute;
-        ///	text-align: left;
-        ///	padding: 8px;
-        ///	font: 12px sans-serif;
-        ///	background: #000;
-        ///  color: #ddd;
-        ///	border: solid 1px #aaa;
-        ///	border-radius: 4px;
-        ///	pointer-events: none;
-        ///}.
-        /// </summary>
-        internal static string correxplorer1 {
-            get {
-                return ResourceManager.GetString("correxplorer1", resourceCulture);
+                return ResourceManager.GetString("correxplorer_js", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to !function(){function n(n){return n&amp;&amp;(n.ownerDocument||n.document||n).documentElement}function t(n){return n&amp;&amp;(n.ownerDocument&amp;&amp;n.ownerDocument.defaultView||n.document&amp;&amp;n||n.defaultView)}function e(n,t){return t&gt;n?-1:n&gt;t?1:n&gt;=t?0:NaN}function r(n){return null===n?NaN:+n}function i(n){return!isNaN(n)}function u(n){return{left:function(t,e,r,i){for(arguments.length&lt;3&amp;&amp;(r=0),arguments.length&lt;4&amp;&amp;(i=t.length);i&gt;r;){var u=r+i&gt;&gt;&gt;1;n(t[u],e)&lt;0?r=u+1:i=u}return r},right:function(t,e,r,i){for(arguments.length&lt;3&amp;&amp;(r=0) [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string d3_v3_min {
+        internal static string d3_v3_min_js {
             get {
-                return ResourceManager.GetString("d3_v3_min", resourceCulture);
+                return ResourceManager.GetString("d3_v3_min_js", resourceCulture);
             }
         }
     }
