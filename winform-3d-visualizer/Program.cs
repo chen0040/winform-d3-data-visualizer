@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Windows.Forms;
-using CefSharp;
+using winform_3d_visualizer;
 
 namespace PredictiveModels.Tools.Charting
 {
@@ -13,14 +13,9 @@ namespace PredictiveModels.Tools.Charting
         [STAThread]
         public static void Main()
         {
-            var settings = new CefSettings();
-            settings.BrowserSubprocessPath = @"x86\CefSharp.BrowserSubprocess.exe";
-
-            Cef.Initialize(settings, performDependencyCheck: false, browserProcessHandler: null);
-
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmCorrelogramChart());
+            Application.Run(new Form1());
         }
     }
 }
