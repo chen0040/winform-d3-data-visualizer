@@ -1,4 +1,4 @@
-﻿namespace PredictiveModels.Tools.Charting
+﻿namespace winform_3d_visualizer
 {
     partial class UcCorrelogramChart
     {

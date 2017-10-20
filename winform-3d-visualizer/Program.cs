@@ -3,7 +3,7 @@ using System.Linq;
 using System.Windows.Forms;
 using winform_3d_visualizer;
 
-namespace PredictiveModels.Tools.Charting
+namespace winform_3d_visualizer
 {
     static class Program
     {

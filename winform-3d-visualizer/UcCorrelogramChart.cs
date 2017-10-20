@@ -11,7 +11,7 @@ using CefSharp.WinForms;
 using CefSharp;
 using CefSharp.WinForms.Internals;
 
-namespace PredictiveModels.Tools.Charting
+namespace winform_3d_visualizer
 {
     public partial class UcCorrelogramChart : UserControl
     {

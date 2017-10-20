@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PredictiveModels.Tools.Charting
+namespace winform_3d_visualizer
 {
     public class d3js
     {
