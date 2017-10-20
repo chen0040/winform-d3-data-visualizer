@@ -13,13 +13,13 @@ using CefSharp.WinForms.Internals;
 
 namespace winform_3d_visualizer
 {
-    public partial class UcCorrelogramChart : UserControl
+    public partial class UcBrowser : UserControl
     {
         private ChromiumWebBrowser _browser;
         public event EventHandler<IsBrowserInitializedChangedEventArgs> IsBrowserInitializedChanged;
 
 
-        public UcCorrelogramChart()
+        public UcBrowser()
         {
             InitializeComponent();
 
